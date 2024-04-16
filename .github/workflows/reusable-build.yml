@@ -29,13 +29,13 @@ jobs:
         image_name:
           - silverblue
           - kinoite
-          - sericea
-          - onyx
-          - base
-          - lxqt
-          - lazurite
-          - mate
-          - vauxite
+          # - sericea
+          # - onyx
+          # - base
+          # - lxqt
+          # - lazurite
+          # - mate
+          # - vauxite
         build_target: [nokmods, kmods]
         exclude:
           # There is no Fedora 38 version of onyx or lazurite
